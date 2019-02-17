@@ -72,3 +72,5 @@ ruby '2.5.1'
 group :development, :test do
   gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
 end
+
+gem 'slim-rails'
