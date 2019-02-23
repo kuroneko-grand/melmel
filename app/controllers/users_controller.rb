@@ -3,10 +3,10 @@ class UsersController < ApplicationController
   before_action :move_to_index, except: [:index, :show]
 
   def index
-    if current_user.id
+    # if current_user.id
     @users = User.all
     
-    end
+    # end
   end
 
   def show
